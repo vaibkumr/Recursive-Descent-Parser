@@ -1,5 +1,7 @@
 # Recursive Descent Parser
 I don't know how did it took me as much as ~2 hours to write this
+- This RDP is for a particular grammar.
+- Although, it is easy to follow the pattern and write it for any LL(1) grammar.
 
 
 # Nani?
