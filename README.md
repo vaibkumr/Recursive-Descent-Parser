@@ -1,5 +1,5 @@
 # Recursive Descent Parser
-I don't know how did this took me as much as ~2 hours to write this
+I don't know how did it took me as much as ~2 hours to write this
 
 
 # Nani?
