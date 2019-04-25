@@ -1,5 +1,4 @@
 import sys
-
 """
 Recursive Descent Parser by TimeTraveller :
 - It supports floating point numbers
@@ -51,9 +50,10 @@ class RDP():
         return False
 
     def match(self, elem):
-        if (elem == 'digit'and self.string[self.loc].isdigit()) or\
+        if (elem == 'digit' and self.string[self.loc].isdigit()) or\
                         self.string[self.loc] == elem:
                         self.loc += 1
+                        print(f"[{elem}] matched at location {self.loc}")
         else:
             print("Parse error")
             sys.exit(0)
@@ -130,5 +130,5 @@ class RDP():
 
 if __name__ == "__main__":
     obj = RDP()
-    result = obj.parse("2.817*1.1+0.901820938^9.98912")
+    result = obj.parse("1+1.2*9^7.1")
     print(result)
